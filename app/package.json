@@ -1,0 +1,23 @@
+{
+  "name": "parrotcloud-api",
+  "version": "1.0.0",
+  "description": "Parrotcloud store and user API",
+  "main": "index.js",
+  "scripts": {
+    "start": "nodemon index.js"
+  },
+  "author": "Mulekotd",
+  "license": "ISC",
+  "dependencies": {
+    "bcrypt": "^5.1.1",
+    "dotenv": "^16.3.1",
+    "express": "^4.18.2",
+    "string-similarity": "^4.0.4"
+  },
+  "devDependencies": {
+    "cors": "^2.8.5",
+    "firebase": "^9.21.0",
+    "firebase-admin": "^11.7.0",
+    "nodemon": "^2.0.22"
+  }
+}
